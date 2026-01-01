@@ -1,7 +1,7 @@
 # Introduction to Temporal
 
 **Date:** 2025-12-27  
-**Category:** temporal
+**Category:** temporal,easy
 
 ## Context
 https://github.com/temporalio/temporal
@@ -76,6 +76,25 @@ async def process_payment(payment_data: PaymentData) -> PaymentResult:
     # Temporal will automatically retry if this fails
     pass
 ```
+
+### Building Blocks
+
+- Workflows
+Everything you write in temporal is basically a workflow. Some people call temporal `Workflow-as-code`. Example
+    - Using a mobile app to transfer money
+    - Booking a vacation
+    - Filing an expense report
+    - Creating a new employee onboarding process
+    - Deploying cloud infrastructure
+    - Training an AI model
+
+- Activities
+They are the retriable units inside a workflow. Activities often involve interacting with the outside world, such as sending emails, making network requests, writing to a database, or calling an API, which are prone to failure.
+If an Activity fails, Temporal automatically retries it based on your configuration.
+
+
+### Architecture
+
 
 ## References
 
