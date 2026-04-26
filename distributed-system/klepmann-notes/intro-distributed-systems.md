@@ -1,9 +1,9 @@
-# Basic Introduction
+# Distributed Systems 1.1: Introduction
 
-**Date:** 2025-12-29  
-**Category:** distributed-systems,easy
+**Date:** 2025-12-29
+**Category:** distributed-systems
 
-The video starts with describing the technique with a single process, multiple threads.
+The [video](https://youtu.be/UEAMfLPZZhE?si=zwdQIEf10tZqfnr_) starts with describing the technique with a single process, multiple threads.
 With single process, we have the leverage of shared space through which multiple threads can communicate.
 
 The same is not true, we have multiple process running across different machines. And the way these processes need
@@ -38,5 +38,5 @@ We cannot remove these problems altogether, rather we have to make our system pr
 
 ## References
 
-- [Video - 1](https://youtu.be/UEAMfLPZZhE?si=zwdQIEf10tZqfnr_)
+- [Distributed Systems 1.1: Martin Kleppmann](https://youtu.be/UEAMfLPZZhE?si=zwdQIEf10tZqfnr_)
 

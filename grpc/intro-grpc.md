@@ -1,11 +1,11 @@
-# gRPC - Intro
+# Introduction to gRPC
 
 **Date:** 2026-01-01  
-**Category:** grpc,easy
+**Category:** grpc
 
 ## What I Learned
 
-gRPC is another form API exposure like REST, GraphQL etc. gRPC offers a slightly different way of execution
+gRPC is another form of API exposure like REST, GraphQL etc. gRPC offers a slightly different way of execution
 i.e. RPC or Remote procedure calls (Oh, we have heard of it in OS / Networking classes). On a high level,
 everything happens like a function/procedure call which the client triggers with inputs, server executes and returns the response.<br/>
 More formally, we call a stub; which is a local object that acts as a client-side placeholder or proxy for a remote service.
@@ -52,7 +52,7 @@ Just like deadline, cancellation is propagated as well. It is on the application
 ### Retries
 Retries are inbuilt in gRPC. Clients can configure the retry policy.
 
-<img src="./grpc-features.png" alt="gRPC features diagram" height="220"/>
+<img src="./grpc-features.png" alt="gRPC features diagram" height="120"/>
 
 
 ## References

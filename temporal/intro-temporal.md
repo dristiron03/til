@@ -1,7 +1,7 @@
 # Introduction to Temporal
 
 **Date:** 2025-12-27  
-**Category:** temporal,easy
+**Category:** temporal
 
 ## Context
 https://github.com/temporalio/temporal
